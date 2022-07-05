@@ -14,7 +14,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 #banner {
@@ -32,58 +40,58 @@ header {
     font-weight: 400;
 }
 
-.btn{
+.btn {
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
     font-weight: 500;
     background: #E8DAEF;
-    padding: 10px ;
+    padding: 10px;
     border-radius: 5px;
     margin: 30px 0 10px;
 }
 
-section{
+section {
     margin-top: 80px;
 }
 
-.money{
+.money {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
 }
 
-.money-1{
-    background: #F2F3F4 ;
+.money-1 {
+    background: #F2F3F4;
     border: 3px solid rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     box-shadow: 10px, 10px, 30px rgba(39, 38, 38, 0.1);
     padding: 20px;
 }
 
-#money-2{
-    background: #F2F3F4 ;
-    border: 3px solid #F5B7B1 ;
+#money-2 {
+    background: #F2F3F4;
+    border: 3px solid #F5B7B1;
     border-radius: 5px;
     box-shadow: 10px, 10px, 30px rgba(39, 38, 38, 0.1);
     padding: 20px;
 }
 
-input{
-  width: 35%;
-  height: 8vh;
-  text-align: center;
-  justify-content: center;
-  margin-top: 10px;
-  border: none;
-  background-color: none;
+input {
+    width: 35%;
+    height: 8vh;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: none;
+    background-color: none;
 }
 
 #donate {
     margin-left: 50%;
 }
 
-#donate-plan{
+#donate-plan {
     background: #D6EAF8;
     border: 0;
     border-radius: 10px;
@@ -92,7 +100,8 @@ input{
     margin-right: 10px;
     padding: 20px;
 }
-#donate-plan1{
+
+#donate-plan1 {
     background: #E8DAEF;
     border: 0;
     border-radius: 10px;
@@ -102,12 +111,33 @@ input{
     padding: 20px;
 }
 
-#donate-plan2{
+#donate-plan2 {
     background: #FDEDEC;
     border: 0;
     border-radius: 10px;
     box-shadow: 0px 4px 3px #34495E;
     align-content: center;
     margin-right: 10px;
+    padding: 20px;
+}
+
+#mission {
+    background: #F0F3F4;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 3px #34495E;
+    align-content: left;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+#vission {
+    background: #F0F3F4;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 3px #34495E;
+    align-content: left;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 20px;
 }
