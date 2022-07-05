@@ -142,12 +142,26 @@ input {
     padding: 20px;
 }
 
-form{
+form {
     margin-left: 40%;
-    
+
 }
 
-form input{
-    background-color: #F9EBEA ;
+form input {
+    background-color: #F9EBEA;
     border-radius: 5px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #17202A;
+    padding: 50px;
+}
+
+footer h2 {
+    color: #FF0063;
+}
+
+footer p {
+    color: #fff;
 }
