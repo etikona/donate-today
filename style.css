@@ -141,3 +141,13 @@ input {
     margin-left: 10px;
     padding: 20px;
 }
+
+form{
+    margin-left: 40%;
+    
+}
+
+form input{
+    background-color: #F9EBEA ;
+    border-radius: 5px;
+}
