@@ -122,7 +122,7 @@ input {
 }
 
 #mission {
-    background: #F0F3F4;
+    background: #F5CBA7;
     border: 0;
     border-radius: 10px;
     box-shadow: 0px 4px 3px #34495E;
@@ -143,14 +143,25 @@ input {
 }
 
 form {
-    margin-left: 40%;
-
+    background-color: #FADBD8 ;
+   
+    margin-left: 30%;
+    margin-right: 20%;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
 }
 
 form input {
     background-color: #F9EBEA;
     border-radius: 5px;
+    margin-right: 0%;
+    width: 60%;
 }
+
+
 
 footer {
     margin-top: 100px;
